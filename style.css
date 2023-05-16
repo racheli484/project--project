@@ -1,0 +1,90 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-body {
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    
+    
+
+}
+
+.card {
+    display: flex;
+    min-height: 300px;
+    width: 300px;
+}
+
+#button {
+    margin-top: 200px;
+}
+
+
+
+.parallax {
+    background-image: url("Assets/Images/cryptonite.jpg");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-del-coin {
+    margin: 30px;
+}
+#head{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color:whitesmoke;
+    margin-top: -170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+}
+a{
+    color: black;
+}
+.card-title{
+    font-size: 20px;
+    text-align: center;
+}
+.card-text{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+.form-check{
+     margin-left: 220px;
+     margin-top: -130px;
+     }
+     .image{
+        margin-left: 95px;
+     }
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.p,.p2{
+    text-align: center;
+    font-size: 25px;
+}
+.img{
+    margin-left: 500px;
+}
+.h11{
+    text-align: center;
+}
